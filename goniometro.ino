@@ -1,3 +1,5 @@
+// https://es.overleaf.com/read/bxyszzbykrqx
+// DNv7acPAeVBhTXbKv26itJecPG1SPy2o4F
 
 float m = 0.31578;         // 950 bit / 300°
 float b = -150;            // La lectura será de 0° cuando la perilla esté justo a la mitad
