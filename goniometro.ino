@@ -1,6 +1,6 @@
 
 float m = 0.31578;         // 950 bit / 300°
-float b = -180;            // La lectura será de 0° cuando la perilla esté justo a la mitad
+float b = -150;            // La lectura será de 0° cuando la perilla esté justo a la mitad
 float V;                   // El voltaje en bits
 
 void setup()
