@@ -1,18 +1,17 @@
 
-float rho=0;
-int   Ve= 5;
-float Vs=0;
+float m = 0.31578;         // 950 bit / 300°
+float b = -180;            // La lectura será de 0° cuando la perilla esté justo a la mitad
+float V;                   // El voltaje en bits
 
-void setup() 
+void setup()
 {
-  Serial.begin(9600);
-  rho = .187/360;
+  Serial.begin(9600)
 }
 
-void loop() 
+void loop()
 {
-  int sensorValue = analogRead(A0);
-  float Vs = sensorValue / 204.6;
-  A = Vs/rho;
+  V = analogRead(A0);
+  a = m * V + b;           // El potenciómetro tiene un comportamiento lineal
   Serial.println(A);
+  delay(200);
 }
