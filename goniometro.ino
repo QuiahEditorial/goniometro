@@ -15,6 +15,6 @@ void loop()
 {
   V = analogRead(A0);
   a = m * V + b;           // El potenciómetro tiene un comportamiento lineal
-  Serial.println(A);
+  Serial.println(a);
   delay(200);
 }
