@@ -1,5 +1,7 @@
 # goniometro
 
+https://es.overleaf.com/read/bxyszzbykrqx
+
 Usa un potenciómetro como sensor de ángulo.
 
 Para obtener una medición exacta es necesario caracterizar el potenciómetro:
